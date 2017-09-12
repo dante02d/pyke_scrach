@@ -1,0 +1,11 @@
+novios
+        foreach
+            parejas.novios($novio,$novia)
+        assert
+            parejas.relacion($novio,$novia,novios)
+
+amantes
+        foreach
+            parejas.amantes($novio,$novia)
+        assert
+            parejas.relacion($novio,$novia,amantes)
